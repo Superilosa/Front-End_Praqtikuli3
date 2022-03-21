@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <style>
+        table{
+            border: solid;
+            margin-left: 50px;
+        }
+        td{
+            border: solid;
+        }
+        tbody td{
+            width: 120px;
+        }
+        tbody tr{
+            height: 30px;
+        }
+        thead td{
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="2">header</td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="2">footer</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>menu1</td>
+                    <td rowspan="6" style="width: 600px;">content</td>
+                </tr>
+                <tr>
+                    <td>menu2</td>
+                </tr>
+                <tr>
+                    <td>menu3</td>
+                </tr>
+                <tr>
+                    <td>menu4</td>
+                </tr>
+                <tr>
+                    <td>menu5</td>
+                </tr>
+                <tr>
+                    <td style="height: 350px;"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

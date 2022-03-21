@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <style>
+        p{
+            margin-left: 470px;
+            margin-bottom: 2px;
+        }
+        table{
+            border: solid;
+            width: 1000px;
+        }
+        tbody tr{
+            height: 45px;
+        }
+        thead tr{
+            height: 70px;
+            font-size:larger;
+        }
+        td{
+            border: solid;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Table data</p>
+        <table>
+            <thead>
+                <tr>
+                    <td>head1</td>
+                    <td>head2</td>
+                    <td>head3</td>
+                    <td>head4</td>
+                    <td>head5</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td rowspan="2"></td>
+                    <td></td>
+                    <td colspan="2" rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

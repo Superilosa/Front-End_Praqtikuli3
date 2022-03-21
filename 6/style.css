@@ -1,0 +1,138 @@
+body{
+    background-color: gainsboro;
+    padding: 0px 15%;
+    margin: 0px;
+}
+.header{
+    background-image: url("https://www.xmple.com/wallpaper/white-gradient-orange-linear-1920x1080-c2-fffaf0-ff8c00-a-180-f-14.svg");
+    width: 100%;
+    height: 140px;
+    padding-top: 20px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+.header h2{
+    font-family: cursive;
+    font-style: italic;
+    color: purple;
+    margin-left: 30px;
+}
+.line{
+    background-color: gray;
+    width: 75%;
+    height: 30px;
+    float: right;
+}
+.footer{
+    width: 100%;
+    border: solid;
+    text-align: center;
+}
+.main{
+    width: 100%;
+    border: solid;
+    min-height: 356px;
+    overflow-y: auto;
+    background-color: gray;
+}
+table.links{
+    background-color: gray;
+    border-collapse: collapse;
+    float: left;
+    width: 17%;
+}
+table.links tr{
+    height: 30px;
+}
+table.links td{
+    border-style: solid;
+    border-color: darkgreen;
+    padding: 4px;
+}
+.content{
+    float: right;
+    width: 83%;
+    background-color: white;
+    min-height:  356px;
+}
+.main-info{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.subheading{
+    font-weight: bold;
+}
+.main-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 14px;
+    height: 200px;
+    width: auto;
+}
+h3{
+    margin-left: 20px;
+}
+.history-text{
+    margin-left: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+h4{
+    margin-left: 30px;
+    text-decoration: underline;
+}
+h4.sub-heading{
+    font-style: italic;
+    font-size: 15px;
+}
+.info{
+    margin-left: 12px;
+    font-size: 14px;
+    color: gray;
+}
+ol{
+    list-style: upper-roman;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.gallery-img{
+    margin-left: 4px;
+    width: 49%;
+    height: 300px;
+    object-fit: cover;
+}
+.gallery-background{
+    padding-top: 4px;
+    background-color:bisque;
+}
+h5{
+    font-size: 17px;
+    margin-left: 20px;
+}
+dl{
+    margin-left: 30px;
+}
+dt{
+    color:seagreen;
+}
+dd{
+    margin: 2px 0px 7px 45px;
+}
+.mail{
+    list-style: none;
+    margin-left: 20px;
+}
+.mail li{
+    margin-bottom: 4px;
+}
+.numbers{
+    float: left;
+    margin-left: 10%;
+}
+.mails{
+    margin-left: 50%;
+}
